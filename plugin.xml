@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-ad-admob"
-    version="1.0.118">
+    id="cordova-plugin-admob-fixed"
+    version="1.0.119">
 	
-    <name>Cordova AdMob plugin</name>
-    <description>Show admob banner, interstitial and rewarded video ad</description>
-    <author>Sang Ki Kwon (Cranberrygame)</author>		
+    <name>Cordova AdMob plugin (Fixed by Mikki)</name>
+    <description>Show admob banner, interstitial and rewarded video ad. Fixed "method onRewardedVideoCompleted()"</description>
+    <author>Sang Ki Kwon (Cranberrygame) and Mikki (Jucik)</author>		
     <license>MIT</license>
     <keywords>cordova,plugin,ad,admob,monetisation</keywords>
-    <repo>https://github.com/cranberrygame/cordova-plugin-ad-admob</repo>
-    <issue>https://github.com/cranberrygame/cordova-plugin-ad-admob/issues</issue> 	
+    <repo>https://github.com/MikkiYT/cordova-plugin-admob-fixed</repo>
+    <issue>https://github.com/MikkiYT/cordova-plugin-admob-fixed/issues</issue> 	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>
