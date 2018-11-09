@@ -582,7 +582,10 @@ public class AdMobOverlap implements PluginDelegate {
 		
 		@Override
 		public void onRewardedVideoCompleted(int errorCode) {
-			Log.d(LOG_TAG, String.format("%s", "onRewardedVideoCompleted"));
+			Log.d(LOG_TAG, String.format("%s", "onRewardedVideoAdFailedToLoad"));
+			
+			    if(!rewardedVideoAdPreload) {
+				rewardedVideo.show();
 		}
 		
 		@Override
