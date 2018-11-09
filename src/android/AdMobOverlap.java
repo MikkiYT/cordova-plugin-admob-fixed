@@ -587,6 +587,7 @@ public class AdMobOverlap implements PluginDelegate {
 			    if(!rewardedVideoAdPreload) {
 				rewardedVideo.show();
 		}
+		}
 		
 		@Override
 		public void onRewardedVideoAdLoaded() {
