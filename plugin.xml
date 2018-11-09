@@ -27,7 +27,7 @@
             </feature>
         </config-file>
 		
-        <source-file src="src/android/AdMobPlugin.java" target-dir="cordova-plugin-admob-fixed/tree/master/src/android" />
-        <source-file src="src/android/AdMobOverlap.java" target-dir="cordova-plugin-admob-fixed/tree/master/src/android" />
-        <source-file src="src/android/AdMobSplit.java" target-dir="cordova-plugin-admob-fixed/tree/master/src/android" />
+        <source-file src="src/android/AdMobPlugin.java" target-dir="src/com/cranberrygame/cordova/plugin/ad/admob" />
+        <source-file src="src/android/AdMobOverlap.java" target-dir="src/com/cranberrygame/cordova/plugin/ad/admob" />
+        <source-file src="src/android/AdMobSplit.java" target-dir="src/com/cranberrygame/cordova/plugin/ad/admob" />
 </plugin>
