@@ -1,3 +1,4 @@
+cordova.define("cordova-plugin-ad-admob.admob", function(require, exports, module) {
 
 module.exports = {
 	_loadedBannerAd: false,
@@ -303,3 +304,5 @@ if (typeof Cocoon != 'undefined' && navigator.userAgent.match(/Android/i) && !se
 	onRewardedVideoAdHidden: null,
 	onRewardedVideoAdCompleted: null
 };
+
+});
